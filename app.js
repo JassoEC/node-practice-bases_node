@@ -1,11 +1,8 @@
+const { createFile } = require("./helpers/multiply");
+
 console.clear();
-console.log(`
-=================
-  Tabla del 5
-=================
-`);
-const base = 2;
-for (let i = 1; i <= 10; i++) {
-  let operator = base * i;
-  console.log(`Resultado: ${operator}`);
-}
+const base = 8;
+
+createFile(base)
+  .then((response) => console.log(response, " creado"))
+  .catch((err) => console.log(err));
