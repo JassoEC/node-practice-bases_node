@@ -1,0 +1,10 @@
+Resultado: 9 
+Resultado: 18 
+Resultado: 27 
+Resultado: 36 
+Resultado: 45 
+Resultado: 54 
+Resultado: 63 
+Resultado: 72 
+Resultado: 81 
+Resultado: 90 
