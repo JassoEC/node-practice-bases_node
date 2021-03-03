@@ -1,9 +1,11 @@
 const { createFile } = require("./helpers/multiply");
+const argv = require("yargs").argv;
+
 console.clear();
 
-const [, , baseParam = "--base=5"] = process.argv;
-const [, base = 5] = baseParam.split("=");
+console.log(argv);
 
-createFile(base)
+/* createFile(base)
   .then((response) => console.log(response, " creado"))
   .catch((err) => console.log(err));
+ */
